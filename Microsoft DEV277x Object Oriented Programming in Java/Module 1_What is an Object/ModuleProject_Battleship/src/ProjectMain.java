@@ -27,7 +27,7 @@ public class ProjectMain {
     }
 
     public static char[][] CreateBoard() {
-        // since the base board will never change... might as well define it this way opposed to using for loops or something... keep it simple
+        // since the starting board will always be the same... might as well define it this way opposed to using for loops or something... keep it simple
         char[][] board =    {{' ', ' ', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ' ', ' '},
                             {'0', '|', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '|', '0'},
                             {'1', '|', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '|', '1'},
